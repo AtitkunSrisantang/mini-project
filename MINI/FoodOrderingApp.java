@@ -12,6 +12,7 @@ public class FoodOrderingApp {
 
         // เมนูนี้จะดึงคลาสของ BV กับ RD มาใช้่
         // RD คือใช้กับพวกอาหารที่สั่งพิเศษได้เช่นพวกข้าวกระเพรา
+        // BV คือใช้กับพวกพิเศษไม่ได้เช่นน้ำ
         menu.addItem(new RD("Pork Basil Stir-fry with Rice", 50.0));
         menu.addItem(new RD("Fried Rice", 50.0));
         menu.addItem(new BV("Papaya Salad", 40.0));
@@ -79,3 +80,4 @@ public class FoodOrderingApp {
     }
 
 }
+
