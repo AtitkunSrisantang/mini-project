@@ -10,10 +10,11 @@ public class FoodOrderingApp {
         Menu menu = new Menu();
         Order order = new Order();
 
-        // Create the menu using child classes
+        // เมนูนี้จะดึงคลาสของ BV กับ RD มาใช้่
+        // RD คือใช้กับพวกอาหารที่สั่งพิเศษได้เช่นพวกข้าวกระเพรา
         menu.addItem(new RD("Pork Basil Stir-fry with Rice", 50.0));
         menu.addItem(new RD("Fried Rice", 50.0));
-        menu.addItem(new BV("Papaya Salad", 40.0)); // Example
+        menu.addItem(new BV("Papaya Salad", 40.0));
         menu.addItem(new BV("Water", 10.0));
 
         int choice = -1;
@@ -44,7 +45,7 @@ public class FoodOrderingApp {
                     if (selectedItem != null) {
                         boolean isSpecial = false;
 
-                        // Use 'instanceof' to check the object's type
+                        // ตรงนี้จะถามว่าพิเศษไหมถ้า Y จะบวก 10 บาท ถ้า N จะไม่บวกเพิ่ม
                         if (selectedItem instanceof RD) {
                             System.out.print("Make it special (adds 10 Baht)? (y/n): ");
                             String specialInput = scanner.nextLine();
@@ -76,4 +77,5 @@ public class FoodOrderingApp {
 
         scanner.close();
     }
+
 }
