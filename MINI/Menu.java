@@ -10,7 +10,7 @@ public class Menu {
     public void addItem(MenuItem item) {
         items.add(item);
     }
-
+//หน้านี้ใช้สร้าง List เก็บข้อมูลและทำหน้าเมนูอาหาร
     public void displayMenu() {
         System.out.println("------ Food Menu ------");
         for (int i = 0; i < items.size(); i++) {
@@ -25,4 +25,5 @@ public class Menu {
         }
         return null;
     }
+
 }
