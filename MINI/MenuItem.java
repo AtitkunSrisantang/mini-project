@@ -18,7 +18,8 @@ public abstract class MenuItem {
         return price;
     }
 
-    // Abstract method for price calculation.
-    // Subclasses must implement this method.
+    // ใช้คำนวนราคาของอาหารรวมกันและพิเศษไหม
+    // เป็น Subclass
     public abstract double calculatePrice(boolean isSpecial);
+
 }
