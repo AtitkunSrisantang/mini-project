@@ -25,10 +25,11 @@ public class Order {
         } else {
             System.out.println("--- Your Order ---");
             for (OrderItem item : orderedItems) {
-                System.out.println("- " + item.getName() + " (" + item.getPrice() + " Baht)");
+                System.out.println("- " + item.getName() + " (" + item.getPrice() + " Baht)"); // ใช้บอกราคาของอาหารว่าราคาเท่าไหร่และคืออะไร
             }
             System.out.println("------------------");
-            System.out.println("Total Price: " + getTotal() + " Baht");
+            System.out.println("Total Price: " + getTotal() + " Baht"); // ใช้บอกราคารวมของอาหารที่เราสั่งมา
         }
     }
+
 }
