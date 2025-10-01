@@ -1,5 +1,5 @@
 // OrderItem.java
-package MINI;
+package MINI_main;
 
 public class OrderItem {
     private MenuItem menuItem;
@@ -20,4 +20,5 @@ public class OrderItem {
         // depending on whether the menuItem is a RiceDish or a Beverage.
         return menuItem.calculatePrice(isSpecial);
     }
+
 }
