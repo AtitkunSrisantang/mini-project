@@ -1,4 +1,4 @@
-package MINI;
+package MINI_main;
 
 import java.util.Scanner;
 
@@ -96,3 +96,4 @@ public class FoodOrderingApp {
         scanner.close();
     }
 }
+
