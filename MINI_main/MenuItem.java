@@ -1,5 +1,5 @@
 // MenuItem.java
-package MINI;
+package MINI_main;
 
 public abstract class MenuItem {
     protected String name;
@@ -23,3 +23,4 @@ public abstract class MenuItem {
     public abstract double calculatePrice(boolean isSpecial);
 
 }
+
