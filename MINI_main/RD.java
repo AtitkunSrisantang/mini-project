@@ -1,5 +1,5 @@
 // RiceDish.java
-package MINI;
+package MINI_main;
 
 // RD ใช้ขยายว่ามันคืออาหารที่สั่งพิเศษได้ไหมหรือสั่งพิเศษไม่ได้
 public class RD extends MenuItem {
@@ -21,3 +21,4 @@ public class RD extends MenuItem {
     }
 
 }
+
