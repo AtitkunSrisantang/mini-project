@@ -1,5 +1,5 @@
 // Beverage.java หรือ class ที่ใช้กับอาหารที่สั่งพิเศษไม่ได้เช่นพวกน้ำ
-package MINI;
+package MINI_main;
 
 public class BV extends MenuItem {
 
@@ -14,3 +14,4 @@ public class BV extends MenuItem {
     }
 
 }
+
